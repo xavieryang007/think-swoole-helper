@@ -17,7 +17,7 @@ class Index
             var_dump(1);
         });
         //使用定时器模板
-        $t=new \app\lib\TestTimer();
+        $t=new \app\lib\Timer();
         Timer::tick(1000,$t);
         return 'hello,' . $name;
     }
